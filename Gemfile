@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'monologue', :path => '../monologue'
 
+# Development version of ORMivore, later should actually be part of gemspec
+gem "ormivore", path: '../ormivore', require: ['ormivore', 'ormivore/ar_adapter']
+
 gem 'rails', '~>3.2.16'
 
 # Bundle edge Rails instead:

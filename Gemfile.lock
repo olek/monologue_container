@@ -11,6 +11,12 @@ PATH
       select2-rails (~> 3.2)
       truncate_html
 
+PATH
+  remote: ../ormivore
+  specs:
+    ormivore (0.0.1)
+      nested_exceptions
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,6 +74,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.8.2)
+    nested_exceptions (1.0.1)
     orm_adapter (0.5.0)
     pg (0.17.1)
     polyglot (0.3.3)
@@ -126,6 +133,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   monologue!
+  ormivore!
   pg
   rails (~> 3.2.16)
   sass-rails (~> 3.2.3)
