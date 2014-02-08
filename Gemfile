@@ -12,9 +12,15 @@ gem 'rails', '~>3.2.16'
 
 gem 'pg'
 
-# quieter logs
-gem 'quiet_assets', :group => :development
-gem 'thin'
+group :development do
+  # quieter logs
+  gem 'quiet_assets'
+  gem 'thin'
+
+  gem 'pry'
+
+  gem 'awesome_print'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
