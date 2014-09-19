@@ -15,11 +15,18 @@ gem 'pg'
 group :development do
   # quieter logs
   gem 'quiet_assets'
+
+  # better dev server
   gem 'thin'
 
+  # debugging
   gem 'pry'
-
   gem 'awesome_print'
+  gem 'interactive_editor'
+
+  # sql visibility
+  # gem 'rack-mini-profiler'
+  # gem 'newrelic_rpm'
 end
 
 # Gems used only for assets and not required
